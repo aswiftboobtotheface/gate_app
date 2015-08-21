@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
 
 
-    get '/layouts/index' => "layouts#index"
+    root 'layouts#index'
+
+  #    get '/layouts/index' => "layouts#index"
 
 
   # The priority is based upon order of creation: first created -> highest priority.
